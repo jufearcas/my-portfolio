@@ -1,0 +1,58 @@
+body {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* viewport height */
+    background-color: rgb(97, 110, 230);
+    color: white;
+  }
+  
+  .image-container {
+    text-align: center;
+  }
+  
+  img {
+    width: 200px; /* adjust the width as needed */
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-link {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .social-link:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .instagram {
+    background-color: white;
+    color: #3B5998;
+  }
+  
+  .tiktok {
+    background-color: white;
+    color: #3B5998;
+  }
+
+  p {
+    text-align: center;
+  }
